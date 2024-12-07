@@ -260,11 +260,11 @@ openssl req -new -x509 -days 3650 -key "private.key" -out "cert.pem" -subj "/CN=
         ],
         "tls": {
             "enabled": true,
-            "server_name": "www.cerebrium.ai",
+            "server_name": "paypal.com",
             "reality": {
                 "enabled": true,
                 "handshake": {
-                    "server": "www.cerebrium.ai",
+                    "server": "paypal.com",
                     "server_port": 443
                 },
                 "private_key": "$private_key",
