@@ -200,7 +200,7 @@ cat > config.json <<EOF
           "password": "$UUID"
         }
       ],
-      "masquerade": "https://bing.com",
+      "masquerade": "https://alipay.com",
       "tls": {
         "enabled": true,
         "alpn": ["h3"],
